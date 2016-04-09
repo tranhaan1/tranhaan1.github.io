@@ -7,10 +7,14 @@ body {
 }
 
 #menu a {
-	padding: 130px;
+	padding: 111px;
 	font-size: 25px;
 	color: #737373;
 	text-decoration: none;
+}
+
+#menu { 
+	position: relative;
 }
 
 #menu a:hover, #menu a.active {
@@ -20,6 +24,16 @@ body {
 #menu a.active {
 	font-weight: bold;
 }
+#menu img {
+    position: absolute;
+    border-radius: 50%;
+    width: 10%;
+    top: -63px;
+    left: 100px;
+    background-color: white;
+    padding: 5px;
+}
+
 .img img{
 	padding: 20px;
 	width: 100%;
@@ -33,7 +47,7 @@ body {
 }
 #banner  {
 	width: 1200px;
-	min-height: 500px;
+	max-height: 500px;
 	margin: 0 auto;
 }
 .grup {
@@ -44,4 +58,12 @@ body {
 	float: left;
 	width: 30%;
 	margin : 0 1%;
+}
+#back img {
+    position: fixed;
+    border-radius: 50%;
+    width: 6%;
+    bottom: -6px;
+    right: 25px;
+    padding: 5px;
 }
