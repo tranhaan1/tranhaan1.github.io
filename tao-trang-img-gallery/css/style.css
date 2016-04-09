@@ -7,8 +7,8 @@ body {
 }
 
 #menu a {
-	padding: 150px;
-	font-size: 20px;
+	padding: 130px;
+	font-size: 25px;
 	color: #737373;
 	text-decoration: none;
 }
@@ -20,13 +20,16 @@ body {
 #menu a.active {
 	font-weight: bold;
 }
-#anh img{
-	padding: 6px;
-	width: 32%;
-	margin: 6px;
-	border: 8px solid #99ffeb;
+.img img{
+	padding: 20px;
+	width: 100%;
+	max-height: 200px;
+	margin: 40px;
+	border: 10px solid #99ffeb;
+}
 
-
+#anh {
+	width: 100%
 }
 #banner  {
 	width: 1200px;
@@ -34,9 +37,11 @@ body {
 	margin: 0 auto;
 }
 .grup {
-	max-width: 1200px;
+	width: 1200px;
 	margin: auto;
 }
 .img {
 	float: left;
+	width: 30%;
+	margin : 0 1%;
 }
