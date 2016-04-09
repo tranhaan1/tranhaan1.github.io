@@ -1,0 +1,42 @@
+*{
+	box-sizing : border-box
+}
+body {
+	background-color: black;
+
+}
+
+#menu a {
+	padding: 150px;
+	font-size: 20px;
+	color: #737373;
+	text-decoration: none;
+}
+
+#menu a:hover, #menu a.active {
+	color:pink;
+}
+
+#menu a.active {
+	font-weight: bold;
+}
+#anh img{
+	padding: 6px;
+	width: 32%;
+	margin: 6px;
+	border: 8px solid #99ffeb;
+
+
+}
+#banner  {
+	width: 1200px;
+	min-height: 500px;
+	margin: 0 auto;
+}
+.grup {
+	max-width: 1200px;
+	margin: auto;
+}
+.img {
+	float: left;
+}
