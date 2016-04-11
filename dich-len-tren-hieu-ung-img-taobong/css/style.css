@@ -34,21 +34,21 @@ body {
     padding: 5px;
 }
 
+
 .img img{
 	padding: 20px;
 	width: 100%;
 	max-height: 200px;
 	margin: 40px;
 	border: 10px solid #99ffeb;
-	transition: opacity 0.5s linear ;
+	transition: all 0.5s ease ;
 
 
 }
 
-.img:hover img {
-	opacity: 0.5;
-	box-shadow: 10px 10px 5px white;
-
+.img:hover {
+	transform :translate(0,-5px);
+	box-shadow: 5px 5px 1px white;
 }
 
 #anh {
