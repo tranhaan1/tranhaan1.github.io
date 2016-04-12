@@ -1,0 +1,123 @@
+
+body {
+	background-color: black;
+}
+#thiep {
+	width: 100%;
+}
+h1 {
+	animation: nhay 5s ease infinite;
+	color: black;
+	background-color: red;
+	text-align: center;
+
+}
+@keyframes nhay {
+	0% {background-color: red; color: black;}
+	25% {background-color: #009933; color: white;}
+	50% {background-color: #ff00ff; color: #cce6ff;}
+	75% {background-color: #ffff99; color: #009900;}
+	100% {background-color: #00ffff; color: #4d004d;}
+}
+.anh {
+	text-align: right;
+	width: 100%;
+}
+.anh img {
+	position: absolute;
+	width: 30%;
+	animation: chay 10s ease infinite;
+	padding-top: 500px;
+}
+@keyframes chay {
+	0% { right: 0px;}
+	100%{right: 500px;opacity: 0 }
+
+}
+
+.chuong { 
+		text-align: center;
+}
+.chuong img {
+	max-width: 200px;
+}
+
+.caythong img {
+	max-width: 500px;
+	transition: all 0.5s  linear;
+}
+.caythong:hover img {
+	transform : scale(1.2);
+}
+.caythong {
+	bottom:50px;
+	max-width: 400px;
+	position: absolute;
+}
+
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+.loichuc p {
+	
+	font-size: 30px;
+	color: yellow;
+	animation: loichuc 5s ease infinite;
+}
+.loichuc {
+	max-width: 400px;
+	max-height: 400px;
+	padding-top: 50px;
+	padding-left: 400px;
+
+}
+@keyframes loichuc {
+	0% {color: yellow;}
+	25% {color: red;}
+	50% {color: #009933;}
+	75% {color: #4dffff;}
+	100% {color: #66ffd9;}
+}
+
+
+
+
+
+
+
+
+
+
