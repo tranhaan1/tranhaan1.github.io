@@ -1,0 +1,149 @@
+*{
+	box-sizing : border-box;
+	margin: 0px; padding: 0px;
+}
+body {
+	background-image: url("http://lammyphamhandmade.com.vn/wp-content/uploads/2015/06/tra_xanh.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 150%;
+	width: 100%;
+    margin: -50px auto auto ;
+}
+.grup {
+	width: 1200px;
+	margin: auto;
+}
+#banner img {
+	width: 1200px;
+	max-height: 400px;
+}
+
+#main-menu a {
+	padding: 50px;
+	font-size: 25px;
+	color: #737373;
+	text-decoration: none;
+}
+
+#main-menu {
+	position: relative;
+	background-color: #004d00;
+}
+
+#main-menu a:hover, #main-menu a.active {
+	color:pink;
+}
+
+#main-menu a.active {
+	font-weight: bold;
+}
+#main-menu img {
+    position: absolute;
+    border-radius: 50%;
+    width: 10%;
+    top: -63px;
+    left: 100px;
+    background-color: white;
+    padding: 5px;
+
+}
+b::after{
+	content: "VND";
+}
+h1 {
+	font-family: cursive;
+	position: absolute;
+	font-size: 70px;
+	animation: hanamichi 10s ease infinite; 
+}
+@keyframes hanamichi {
+	0%{left: 0px ; color: green;}
+	25%{ color: pink; opacity: 0.8;}
+	50%%{ color: red; opacity: 0.6;}
+	75%{ color: #80ffff; opacity: 0.4;}
+	100%{left: 1000px ; color: #ff99c2; opacity: 0;}
+
+}
+#back img {
+    position: fixed;
+    border-radius: 50%;
+    width: 6%;
+    bottom: -6px;
+    right: 25px;
+    padding: 5px;
+}
+
+#gioithieu {
+	font-size: 30px;
+	background-color: green;
+	color: #ff4d94;
+}
+.traxanh {
+	float: left;
+}
+.traxanh img{
+	padding: 20px;
+	width: 300px;
+	max-height: 200px;
+	margin: 40px;
+	border: 10px solid #99ffeb;
+	transition: all 0.5s ease ;
+}
+
+.khuyenmai {
+	padding-left: 500px;
+	padding-top: 30px;
+}
+
+.khuyenmai img {
+	width: 300px;
+	max-height: 200px;
+}
+
+li{ list-style: none;}
+a{text-decoration: none;color: #FFF;font-size: 16px;}
+.clear{ clear: both;}
+.main_menu{ background: #00A69B;}
+.main_menu>ul>li{ float: left;padding: 11px 27px; position: relative; border-right: 1px dotted #ACACAC;width: 25%;text-align: center; }
+.main_menu>ul>li:last-child{ border-right: none;}
+.main_menu>ul>li>ul{ display: none; position: absolute; background: #00A69B;top: 41px;width: 198px; left: 0px;}
+.main_menu>ul>li:hover ul{ display: block;}
+.main_menu ul li:hover{ background: #5F5C5C; transition: all 0.25s;}
+.main_menu>ul>li>ul>li{ padding: 5px 10px;}
+.main_menu>ul>li>ul>li{ border-bottom: 1px dotted #ACACAC;}
+
+
+.anh1 {
+	width: 500px;
+	max-height: 300px;
+}
+ .text p{
+ 	font-size: 30px;
+ 	color: #b30086;
+ }
+.img {
+	float: left;
+	width: 400px;
+}
+
+.img img{
+	padding: 20px;
+	width: 300px;
+	max-height: 200px;
+	margin: 40px;
+	border: 10px solid #99ffeb;
+	transition: all 0.5s ease ;
+
+
+}
+
+.img:hover {
+	transform :translate(0,-5px);
+	box-shadow: 5px 5px 1px white;
+}
+
+#anh {
+	width: 100%
+
+}
+
